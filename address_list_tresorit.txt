@@ -1,4 +1,3 @@
-#VPN_FOR_Tresorit
 /ip firewall address-list
 remove numbers=[find list=VPN_For_Tresorit]
 add list=VPN_For_Tresorit address=subscribeapi.tresorit.com
