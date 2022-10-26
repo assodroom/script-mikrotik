@@ -1,6 +1,6 @@
 /ip firewall address-list
-remove numbers=[find list=VPN_For_Tresorit]
-add list=VPN_For_Tresorit address=subscribeapi.tresorit.com
+remove [find list="VPN_For_Tresorit"]
+add list="VPN_For_Tresorit" address="subscribeapi.tresorit.com"
 add list=VPN_For_Tresorit address=webapi.tresorit.com
 add list=VPN_For_Tresorit address=accountapi.tresorit.com
 add list=VPN_For_Tresorit address=send.tresorit.com
